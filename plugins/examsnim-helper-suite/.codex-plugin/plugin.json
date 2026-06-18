@@ -1,0 +1,41 @@
+{
+  "name": "examsnim-helper-suite",
+  "version": "1.0.0",
+  "description": "Shortcut-style Codex helper skills for superpower execution, UI/UX Pro Max, SEO, sitemap, tests, memory, multi-agent review, security, performance, deployment and ExamsNim platform work.",
+  "author": {
+    "name": "AvinasshSingh",
+    "url": "https://github.com/AvinasshSingh"
+  },
+  "homepage": "https://github.com/AvinasshSingh/examsnim-platform",
+  "repository": "https://github.com/AvinasshSingh/examsnim-platform",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "plugins",
+    "skills",
+    "superpower",
+    "uiux",
+    "seo",
+    "sitemap",
+    "testing",
+    "memory",
+    "multi-agent",
+    "examsnim"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ExamsNim Helper Suite",
+    "shortDescription": "Superpower helpers for Codex.",
+    "longDescription": "A curated Codex helper suite for planning, UI/UX Pro Max, SEO/sitemap, tests, memory, multi-agent review, security, performance, deployment and ExamsNim product/backend work.",
+    "developerName": "AvinasshSingh",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Use $superpower to plan, implement, review and test this repository task.",
+      "Use $uiux-pro-max to audit frontend UI/UX, motion, accessibility and conversion polish.",
+      "Use $seo-sitemap-pro to audit metadata, robots.txt, canonical URLs and sitemap.xml.",
+      "Use $multi-agent-squad to spawn focused review agents and consolidate results."
+    ],
+    "brandColor": "#111827"
+  }
+}
